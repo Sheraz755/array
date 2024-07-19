@@ -24,9 +24,26 @@ const secondArr = ["hello", true];
 
 // console.log(myArr.includes(7)); // to find there is an element or not
 
-myArr.forEach((e) => {
-	console.log(e);
-}); //print an array
+// myArr.forEach((e) => {
+// 	console.log(e);
+// }); //print an array
+// console.log(myArr.filter((e) => e === 4)); //return new array as per our requirements
+// console.log(myArr.map((e) => e * 2)); //for manipulate your array
+// console.log(myArr.indexOf(4)); //to find what is index is located
+// console.log(myArr.join(" "));
+// console.log(
+// 	myArr.reduce((acc, cur) => {
+// 		console.log("previous value", acc);
+// 		console.log("updated value", cur);
+// 		return acc + cur;
+// 	}),
+// );//this will return an single value
+// console.log(myArr)
 
-console.log(myArr.map((e) => e * 2)); //for manipulate your array
-console.log(myArr);
+// const fullName = "sheraz";
+// console.log(fullName.charAt(1)); //find string index
+// console.log(fullName.includes("v")); //check that string contain that index or not
+// const filterName = fullName.split("./");
+// const result = filterName[1];
+// console.log(result);
+// console.log(fullName.toLocaleUpperCase()); //for capital letter use
